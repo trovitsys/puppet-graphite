@@ -1,3 +1,35 @@
+## 2015-02-26 - 5.10.1 (Bugfix release)
+
+#### Bugfixes:
+
+- Fixed #156 Non-deterministic web user and group
+- Fixed #155 wrond name of package django-tagging
+
+## 2015-02-23 - 5.10.0 (Feature/Bugfix release)
+
+#### Features:
+
+- add UDP listener support to Carbon Aggregator
+- added kill command after stop_counter finished for carbon shutdown
+- Configureable WSGI params
+- Support installing via other methods than pip (like RPM)
+
+#### Bugfixes:
+
+- Logrotate filtering out .gz files
+
+## 2015-01-09 - 5.9.0 (Feature/Bugfix release)
+
+#### Features:
+
+- enhance relay template to set all options
+
+#### Bugfixes:
+
+- fix usage and autodetect of apache 2.2 vs 2.4
+- Debian: fix carbon restart script for multiple instances
+- fix metadata dependency to work with librarian puppet
+
 ## 2014-12-10 - 5.8.0 (Feature/Bugfix release)
 
 #### Features:
