@@ -59,7 +59,7 @@ class graphite::params {
           $apache_24               = false
         }
 
-        /jessie|trusty|utopic|vivid/: {
+        /stretch|jessie|trusty|utopic|vivid/: {
           $apache_24               = true
         }
 
